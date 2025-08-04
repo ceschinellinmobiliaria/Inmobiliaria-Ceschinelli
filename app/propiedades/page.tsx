@@ -263,7 +263,7 @@ export default function PropiedadesPage() {
                     <div className="flex items-center justify-between">
                       <span className="text-2xl font-bold text-cyan-600">{propiedad.precio}</span>
                       <Button asChild size="sm" className="bg-gray-900 hover:bg-gray-800">
-                        <Link href={`/propiedades/${propiedad.id}`}>VER DETALLES</Link>
+                        <Link href={`/propiedades/${propiedad.id}`} className="text-white">VER DETALLES</Link>
                       </Button>
                     </div>
                   </CardContent>
